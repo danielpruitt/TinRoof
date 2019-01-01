@@ -2,8 +2,10 @@
   "name": "tinroof",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://danielpruitt.github.io/TinRoof",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-materialize": "^2.6.0",

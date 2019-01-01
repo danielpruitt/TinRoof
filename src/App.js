@@ -113,6 +113,8 @@ export default class App extends React.Component {
                         <img className="img-thumbnail" src={photos.thumbnailUrl} alt="thumbnail" />
                       </li>
                       <br />
+
+                      {/* This is the modal trigger that will show the full size image and title and can be dismissed */}
                       <Modal
                         header={photos.title}
                         trigger={<Button>Enlarge</Button>}>
